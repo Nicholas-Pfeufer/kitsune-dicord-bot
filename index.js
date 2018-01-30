@@ -93,13 +93,6 @@ bot.on("message", function(message) {
         case "noticeme":
             message.channel.send("I notice you " + message.author.toString() + " <3");
             break;
-
-        case "lik":
-        case "lic":
-            message.reply("did you mean lick?")
-        case "lick":
-            message.channel.send("eww, why would I do that?")
-            break;
         case "rol":
             message.channel.send("Did you mean roll?\n")
         case "roll":
@@ -142,7 +135,7 @@ bot.on("message", function(message) {
         case "halp":
             message.reply("Did you mean help?\n")
         case "help":
-            message.channel.send("+help\n+f \n+can you... (ask me anything ;)\n+ping\n+noticeme\n+cs\n+slap xxx\n+lick xxx\n+roll xdx xdx... roll up to 10!\n")
+            message.channel.send("+help\n+f \n+can you... (ask me anything ;)\n+ping\n+noticeme\n+cs\n+slap ___\n+roll _d_ _d_... roll up to 10!\n")
              break;
         default:
             message.channel.send("I don't..., what?");
